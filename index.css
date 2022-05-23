@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #98181B, #cc8863);
+    display: flex;
+}
+
+header{
+    width: 99.8vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+    border: 1px solid red;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    
+}
+
+li{
+    list-style: none;
+    border: 2px solid purple;
+}
