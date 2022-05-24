@@ -1,39 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Sans+Pro:wght@200;400&display=swap');
+
+/*font-family: 'Courgette', cursive;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+/* RESETANDO O CSS */
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
     color: white;
 }
 
 html{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #98181B, #cc8863);
-    display: flex;
+    background-image: url('imagem/padrao-fundo.jpg');
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+/* CONFIGURAÇÕES DO CABEÇALHO */
+
 header{
-    width: 99.8vw;
+    width: 99.7vw;
     height: 10vh;
+    padding: 30px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
-    
-    border: 1px solid red;
+    background-image: linear-gradient(to bottom, rgba(151, 96, 126, 0.623) 80%, transparent);
+ 
 }
+
+.imagem{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+
+#logo{
+    height: 8vh;
+}
+
+/* BOTÕES DO CABEÇALHO */
 
 ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
 
     
 }
 
 li{
     list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
     border: 2px solid purple;
+}
+
+/* CONFIGURAÇÕES DO 'MAIN' */
+
+main{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.conteudo-principal{
+    width: 800px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 81px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+h2{
+    color: rgb(252, 232, 247);
 }
