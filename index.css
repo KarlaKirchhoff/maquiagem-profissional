@@ -28,14 +28,15 @@ body{
 /* CONFIGURAÇÕES DO CABEÇALHO */
 
 header{
-    width: 99.7vw;
+    width: 100vw;
     height: 10vh;
     padding: 30px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(to bottom, rgba(151, 96, 126, 0.623) 80%, transparent);
+    background-color: black;
+    border-bottom: 2px solid white;
  
 }
 
@@ -55,16 +56,14 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
-
-    
+    gap: 20px;    
 }
 
 li{
+    padding: 10px;
     list-style: none;
     text-transform: uppercase;
     font-size: 20px;
-    border: 2px solid purple;
 }
 
 /* CONFIGURAÇÕES DO 'MAIN' */
@@ -73,14 +72,16 @@ main{
     display:flex;
     flex-direction:row;
     align-items: center;
+    margin-top: 40px;
 }
 
 .conteudo-principal{
     width: 800px;
     display: flex;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
     padding-left: 81px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
 }
 
 h1{
@@ -89,5 +90,43 @@ h1{
 }
 
 h2{
+    display: inline;
+    width: 430px;
     color: rgb(252, 232, 247);
+    padding: 5px 0px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 30px;
+    margin-bottom: 10px
+}
+/* BOTÃO DO 'MAIN'*/
+
+button{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(66, 42, 61, 0.219);
+    font-family: 'Courgette' , 'cursive';
+    font-size: 30px;
+    padding: 20px;
+    color: black;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.349);
+
+}
+
+/* CONFIGURAÇÕES DA IMAGEM DA MODELO */
+
+#modelo1{
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#p-rodape{
+    border-top: 1px solid whitesmoke;
 }
