@@ -57,7 +57,7 @@ div > a > button{
     border: 2px solid white;
     border-radius: 10px;
     background-color: rgba(66, 42, 61, 0.219);
-    font-family: 'Courgette' , 'cursive';
+    font-family: 'Courgette' , 'cursive'; /*modificar fonte*/
     font-size: 30px;
     padding: 20px;
     color: white;
